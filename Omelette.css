@@ -1,0 +1,98 @@
+body {
+    background-color: hsl(30, 18%, 87%);
+}
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .outfit-text {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h2 {
+    color:hsl(14, 45%, 36%)
+  }
+  
+.containter {
+    padding:63px 68px 60px;
+    margin:10%;
+    background: hsl(330, 100%, 98%);
+    border-radius: 10px;
+}
+.omelette-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.containter  p {
+    font-size: 1rem;
+}
+
+.cstm-prep {    
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 10px;
+    background: rgba(128, 48, 70, 0.2);
+    
+}
+ .cstm-prep h3 {
+    color: hsl(332, 51%, 32%);
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 auto;
+
+ }
+ .cstmIns, .cstm-ing{line-height: 2;}
+
+ .cstm-ing .cstmIns{
+    font-size: 1em;
+    
+ }
+
+ .cstm-maker  li::marker {
+ color:hsl(332, 51%, 32%);
+  }
+
+  li::marker {
+    color:hsl(14, 45%, 36%)
+     }
+
+     td{   
+        padding-left: 1rem;
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+        padding-right: 15rem;
+        color: hsl(30, 10%, 34%);
+    }
+        
+        .td-orange {
+            color:hsl(14, 45%, 36%);
+            font-weight: 700;
+        }
+
+        @media screen and (max-width: 480px) {
+            .containter {
+                background: hsl(330, 100%, 98%);
+                border-radius: 10px;
+                padding: 1rem 1rem;
+                margin: 0 auto;
+               
+             
+          }
+
+          .cstm-prep {
+            padding: 1rem;
+            margin:0 auto;
+          }
+          td {
+          
+            padding-top: 0.5rem;
+            padding-right: 7rem;
+          }
+       
+        
+        }
